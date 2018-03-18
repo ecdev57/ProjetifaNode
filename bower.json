@@ -1,0 +1,22 @@
+{
+  "name": "chat",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "ecdev <enzociano57@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^1.0.15",
+    "angular": "^1.6.9"
+  }
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta Charest="UTF-8">
+		<title>Test AngularJS</title>
+		<script type="text/javascript" src="assets/lib/angular/angular.min.js"></script>
+		<script type="text/javascript" src="assets/lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+		
+	</head>
+	<body ng-app="app_ex15">
+		<header>
+		<h1>Lorem Ipsum</h1>
+		<h4>ne plus reddat quam</h4>
+		</header>
+		<div class="row-fluid">
+			<nav class="span2">
+				<ul class="nav nav-list">
+					<li><a ui-sref="home" ui-sref-active="active">Home</a></li>
+					<li><a ui-sref="formulaire" ui-sref-active="active">Formulaire</a></li>
+					<li><a bui-sref="article" ui-sref-active="active">Article</a></li>
+				</ul>
+			</nav>
+			<div class="span10" ng-view></div>
+		</div>
+		<footer>
+			<p>footer : cum artibus honestissimis erudiretur.Altera sententia est</p>
+		</footer>
+		<script type="text/javascript" src="assets/app.js"></script>
+		<script type="text/javascript" src="assets/conf/conf.js"></script>
+	</body>
+</html>
