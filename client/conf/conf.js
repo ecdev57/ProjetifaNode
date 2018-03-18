@@ -1,4 +1,4 @@
-angular.config(['$stateProvider', '$urlRouterProvider', function($routeProvider, $urlRouterProvider){
+angular.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
   let homeState = {
     name: 'home',
     url: '/home',
